@@ -14,6 +14,7 @@
 		377FAE58208130C400B7C439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377FAE56208130C400B7C439 /* LaunchScreen.storyboard */; };
 		377FAE63208130C400B7C439 /* DDCharCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE62208130C400B7C439 /* DDCharCreatorTests.swift */; };
 		377FAE6E208130C400B7C439 /* DDCharCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE6D208130C400B7C439 /* DDCharCreatorUITests.swift */; };
+		7AF8828B2081380600DBD9AB /* Elan Black Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		377FAE4D208130C400B7C439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377FAE4F208130C400B7C439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		377FAE52208130C400B7C439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		377FAE54208130C400B7C439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377FAE54208130C400B7C439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DDCharCreator/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		377FAE57208130C400B7C439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377FAE59208130C400B7C439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377FAE5E208130C400B7C439 /* DDCharCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCharCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,7 @@
 		377FAE69208130C400B7C439 /* DDCharCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCharCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377FAE6D208130C400B7C439 /* DDCharCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDCharCreatorUITests.swift; sourceTree = "<group>"; };
 		377FAE6F208130C400B7C439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Elan Black Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				377FAE51208130C400B7C439 /* Main.storyboard */,
 				377FAE54208130C400B7C439 /* Assets.xcassets */,
 				377FAE56208130C400B7C439 /* LaunchScreen.storyboard */,
+				7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */,
 				377FAE59208130C400B7C439 /* Info.plist */,
 			);
 			path = DDCharCreator;
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				377FAE58208130C400B7C439 /* LaunchScreen.storyboard in Resources */,
+				7AF8828B2081380600DBD9AB /* Elan Black Regular.ttf in Resources */,
 				377FAE55208130C400B7C439 /* Assets.xcassets in Resources */,
 				377FAE53208130C400B7C439 /* Main.storyboard in Resources */,
 			);
@@ -507,6 +511,7 @@
 				377FAE74208130C400B7C439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377FAE75208130C400B7C439 /* Build configuration list for PBXNativeTarget "DDCharCreatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				377FAE77208130C400B7C439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377FAE78208130C400B7C439 /* Build configuration list for PBXNativeTarget "DDCharCreatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				377FAE7A208130C400B7C439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

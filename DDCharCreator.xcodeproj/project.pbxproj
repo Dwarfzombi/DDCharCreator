@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3745B2B72086747D00FF01D5 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3745B2B62086747D00FF01D5 /* GoogleService-Info (1).plist */; };
 		377FAE4E208130C400B7C439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE4D208130C400B7C439 /* AppDelegate.swift */; };
 		377FAE50208130C400B7C439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE4F208130C400B7C439 /* ViewController.swift */; };
 		377FAE53208130C400B7C439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377FAE51208130C400B7C439 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		377FAE63208130C400B7C439 /* DDCharCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE62208130C400B7C439 /* DDCharCreatorTests.swift */; };
 		377FAE6E208130C400B7C439 /* DDCharCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377FAE6D208130C400B7C439 /* DDCharCreatorUITests.swift */; };
 		7AF8828B2081380600DBD9AB /* Elan Black Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */; };
+		9F25EF696071811AE6F8BA5E /* Pods_DDCharCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F4EDB209310140338106DE /* Pods_DDCharCreator.framework */; };
+		A1CAB9EAD73A09BA95F14DF0 /* Pods_DDCharCreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2390F50BB3E1BA6E7D6A00B0 /* Pods_DDCharCreatorTests.framework */; };
+		B75FE86B14462B464DF131B7 /* Pods_DDCharCreatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4127525F4437A0B3D22685 /* Pods_DDCharCreatorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF1C612D3FAD911A3913DC8 /* Pods-DDCharCreatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreatorTests/Pods-DDCharCreatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2390F50BB3E1BA6E7D6A00B0 /* Pods_DDCharCreatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDCharCreatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3745B2B62086747D00FF01D5 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		377FAE4A208130C400B7C439 /* DDCharCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCharCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377FAE4D208130C400B7C439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377FAE4F208130C400B7C439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +55,14 @@
 		377FAE69208130C400B7C439 /* DDCharCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCharCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377FAE6D208130C400B7C439 /* DDCharCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDCharCreatorUITests.swift; sourceTree = "<group>"; };
 		377FAE6F208130C400B7C439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C978EBC14B5D6884A10804 /* Pods-DDCharCreator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator.debug.xcconfig"; sourceTree = "<group>"; };
+		642F31D8B6849407B017ED78 /* Pods-DDCharCreatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreatorUITests/Pods-DDCharCreatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		685AF2C45163AAAB575EC910 /* Pods-DDCharCreatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreatorUITests/Pods-DDCharCreatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		766761A2B670F0B2DFF24BF3 /* Pods-DDCharCreator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator.release.xcconfig"; sourceTree = "<group>"; };
 		7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Elan Black Regular.ttf"; sourceTree = "<group>"; };
+		C9F4EDB209310140338106DE /* Pods_DDCharCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDCharCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4127525F4437A0B3D22685 /* Pods_DDCharCreatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDCharCreatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE956A9AA4BD30B90BFA9C2 /* Pods-DDCharCreatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCharCreatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDCharCreatorTests/Pods-DDCharCreatorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F25EF696071811AE6F8BA5E /* Pods_DDCharCreator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CAB9EAD73A09BA95F14DF0 /* Pods_DDCharCreatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75FE86B14462B464DF131B7 /* Pods_DDCharCreatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1104A4E2EE4F473D3628ACC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4EDB209310140338106DE /* Pods_DDCharCreator.framework */,
+				2390F50BB3E1BA6E7D6A00B0 /* Pods_DDCharCreatorTests.framework */,
+				CF4127525F4437A0B3D22685 /* Pods_DDCharCreatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		377FAE41208130C400B7C439 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				377FAE61208130C400B7C439 /* DDCharCreatorTests */,
 				377FAE6C208130C400B7C439 /* DDCharCreatorUITests */,
 				377FAE4B208130C400B7C439 /* Products */,
+				93143CB51CF7BB96E3D53174 /* Pods */,
+				1104A4E2EE4F473D3628ACC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 				377FAE56208130C400B7C439 /* LaunchScreen.storyboard */,
 				7AF8828A2081380600DBD9AB /* Elan Black Regular.ttf */,
 				377FAE59208130C400B7C439 /* Info.plist */,
+				3745B2B62086747D00FF01D5 /* GoogleService-Info (1).plist */,
 			);
 			path = DDCharCreator;
 			sourceTree = "<group>";
@@ -128,6 +158,19 @@
 			path = DDCharCreatorUITests;
 			sourceTree = "<group>";
 		};
+		93143CB51CF7BB96E3D53174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C978EBC14B5D6884A10804 /* Pods-DDCharCreator.debug.xcconfig */,
+				766761A2B670F0B2DFF24BF3 /* Pods-DDCharCreator.release.xcconfig */,
+				0EF1C612D3FAD911A3913DC8 /* Pods-DDCharCreatorTests.debug.xcconfig */,
+				FBE956A9AA4BD30B90BFA9C2 /* Pods-DDCharCreatorTests.release.xcconfig */,
+				642F31D8B6849407B017ED78 /* Pods-DDCharCreatorUITests.debug.xcconfig */,
+				685AF2C45163AAAB575EC910 /* Pods-DDCharCreatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377FAE72208130C400B7C439 /* Build configuration list for PBXNativeTarget "DDCharCreator" */;
 			buildPhases = (
+				A9027CDC6EBAB0F8AFC2C247 /* [CP] Check Pods Manifest.lock */,
 				377FAE46208130C400B7C439 /* Sources */,
 				377FAE47208130C400B7C439 /* Frameworks */,
 				377FAE48208130C400B7C439 /* Resources */,
+				2110B62CAF8A359FC18FFE6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377FAE75208130C400B7C439 /* Build configuration list for PBXNativeTarget "DDCharCreatorTests" */;
 			buildPhases = (
+				220BD6587205B314A5D33660 /* [CP] Check Pods Manifest.lock */,
 				377FAE5A208130C400B7C439 /* Sources */,
 				377FAE5B208130C400B7C439 /* Frameworks */,
 				377FAE5C208130C400B7C439 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377FAE78208130C400B7C439 /* Build configuration list for PBXNativeTarget "DDCharCreatorUITests" */;
 			buildPhases = (
+				3706DDB732F271DF24995F51 /* [CP] Check Pods Manifest.lock */,
 				377FAE65208130C400B7C439 /* Sources */,
 				377FAE66208130C400B7C439 /* Frameworks */,
 				377FAE67208130C400B7C439 /* Resources */,
@@ -237,6 +284,7 @@
 			files = (
 				377FAE58208130C400B7C439 /* LaunchScreen.storyboard in Resources */,
 				7AF8828B2081380600DBD9AB /* Elan Black Regular.ttf in Resources */,
+				3745B2B72086747D00FF01D5 /* GoogleService-Info (1).plist in Resources */,
 				377FAE55208130C400B7C439 /* Assets.xcassets in Resources */,
 				377FAE53208130C400B7C439 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +305,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2110B62CAF8A359FC18FFE6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		220BD6587205B314A5D33660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDCharCreatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3706DDB732F271DF24995F51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDCharCreatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9027CDC6EBAB0F8AFC2C247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDCharCreator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		377FAE46208130C400B7C439 /* Sources */ = {
@@ -416,6 +541,7 @@
 		};
 		377FAE73208130C400B7C439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C978EBC14B5D6884A10804 /* Pods-DDCharCreator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDCharCreator/Info.plist;
@@ -428,6 +554,7 @@
 		};
 		377FAE74208130C400B7C439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766761A2B670F0B2DFF24BF3 /* Pods-DDCharCreator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDCharCreator/Info.plist;
@@ -440,6 +567,7 @@
 		};
 		377FAE76208130C400B7C439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF1C612D3FAD911A3913DC8 /* Pods-DDCharCreatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +582,7 @@
 		};
 		377FAE77208130C400B7C439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE956A9AA4BD30B90BFA9C2 /* Pods-DDCharCreatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +597,7 @@
 		};
 		377FAE79208130C400B7C439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642F31D8B6849407B017ED78 /* Pods-DDCharCreatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DDCharCreatorUITests/Info.plist;
@@ -481,6 +611,7 @@
 		};
 		377FAE7A208130C400B7C439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685AF2C45163AAAB575EC910 /* Pods-DDCharCreatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DDCharCreatorUITests/Info.plist;

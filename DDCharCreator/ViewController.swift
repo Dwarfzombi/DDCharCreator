@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //test edit
     }
+    
+    @IBAction func changeScreens(_ sender: UIButton) {
+        performSegue(withIdentifier: "toClass", sender: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

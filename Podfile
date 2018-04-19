@@ -2,12 +2,15 @@
 # platform :ios, '9.0'
 
 target 'DDCharCreator' do
-  pod 'Firebase/Core'
+  
   use_frameworks!
 
   # Pods for DDCharCreator
 
   target 'DDCharCreatorTests' do
+	pod 'Firebase/Core'
+	pod ‘Firebase/Database’
+	pod ‘Firebase/Auth’
     inherit! :search_paths
     # Pods for testing
   end

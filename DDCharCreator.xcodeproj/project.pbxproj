@@ -182,7 +182,6 @@
 				377FAE46208130C400B7C439 /* Sources */,
 				377FAE47208130C400B7C439 /* Frameworks */,
 				377FAE48208130C400B7C439 /* Resources */,
-				2110B62CAF8A359FC18FFE6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +200,7 @@
 				377FAE5A208130C400B7C439 /* Sources */,
 				377FAE5B208130C400B7C439 /* Frameworks */,
 				377FAE5C208130C400B7C439 /* Resources */,
+				0C7F434EEDAAECA8A8BBD6AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,24 +307,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2110B62CAF8A359FC18FFE6E /* [CP] Embed Pods Frameworks */ = {
+		0C7F434EEDAAECA8A8BBD6AE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreatorTests/Pods-DDCharCreatorTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreator/Pods-DDCharCreator-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDCharCreatorTests/Pods-DDCharCreatorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		220BD6587205B314A5D33660 /* [CP] Check Pods Manifest.lock */ = {

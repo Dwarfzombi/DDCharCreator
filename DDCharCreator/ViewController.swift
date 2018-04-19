@@ -23,6 +23,15 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toStats", sender: nil)
     }
     
+    @IBAction func rollSingleStat(_ sender: UIButton) {
+    }
+    
+    @IBAction func rollAllStats(_ sender: UIButton) {
+    }
+    
+    @IBAction func inputSingleStat(_ sender: UITextField) {
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

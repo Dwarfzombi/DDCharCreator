@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //test edit
     }
+    @IBOutlet weak var createNewButton: UIButton!
     
     @IBAction func changeScreensToClass(_ sender: UIButton) {
         performSegue(withIdentifier: "toClass", sender: nil)

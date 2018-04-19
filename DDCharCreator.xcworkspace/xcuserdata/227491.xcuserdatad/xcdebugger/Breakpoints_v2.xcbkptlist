@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DDCharCreator/AppDelegate.swift"
+            timestampString = "545854878.923004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DDCharCreator.AppDelegate.__deallocating_deinit"
+                  moduleName = "DDCharCreator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/227491/Desktop/DDCharCreator/DDCharCreator/AppDelegate.swift"
+                  timestampString = "545854879.00396"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DDCharCreator.AppDelegate.init () -&gt; DDCharCreator.AppDelegate"
+                  moduleName = "DDCharCreator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/227491/Desktop/DDCharCreator/DDCharCreator/AppDelegate.swift"
+                  timestampString = "545854879.018394"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DDCharCreator.AppDelegate.__allocating_init () -&gt; DDCharCreator.AppDelegate"
+                  moduleName = "DDCharCreator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/227491/Desktop/DDCharCreator/DDCharCreator/AppDelegate.swift"
+                  timestampString = "545854879.020391"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "DDCharCreator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/227491/Desktop/DDCharCreator/DDCharCreator/AppDelegate.swift"
+                  timestampString = "545854879.022205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -2,12 +2,11 @@
 //  AppDelegate.swift
 //  DDCharCreator
 //
-//  Created by Azab, Hussam M on 4/13/18.
-//  Copyright © 2018 Azab, Hussam M. All rights reserved.
+//  Created by Hussam Azab on 4/26/18.
+//  Copyright © 2018 Hussam Azab. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
         return true
     }
 

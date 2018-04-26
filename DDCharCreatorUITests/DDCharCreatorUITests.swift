@@ -2,8 +2,8 @@
 //  DDCharCreatorUITests.swift
 //  DDCharCreatorUITests
 //
-//  Created by Azab, Hussam M on 4/13/18.
-//  Copyright © 2018 Azab, Hussam M. All rights reserved.
+//  Created by Hussam Azab on 4/26/18.
+//  Copyright © 2018 Hussam Azab. All rights reserved.
 //
 
 import XCTest
